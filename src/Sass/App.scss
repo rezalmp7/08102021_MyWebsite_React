@@ -1,0 +1,213 @@
+$color-1: #FFB400;
+$color-1-10: #ffe4a3;
+$color-2: #F0F0F6;
+$color-3: #767676;
+$color-1-hover: #d59501;
+$color-white: white;
+$color-black: black;
+$poppins: 'Poppins', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.color-orange{
+    color: $color-1
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+        
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px $color-1-10;     
+    background: $color-1-10;    
+}
+        
+::-webkit-scrollbar-thumb {
+    background: $color-1;
+}
+
+#container-left 
+{
+    h5
+    {
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    p
+    {
+        font-family: $roboto;
+        font-weight: 700;
+        font-size: 20px;
+        color: #767676
+    }
+    a.iconSosmed {
+        background-color: $color-1;
+        color: $color-black;
+        transition: all 0.5s ease;
+    }
+    a.iconSosmed:hover {
+        background-color: $color-1-hover;
+        color: $color-black
+    }
+    table>tr>td>span.orange
+    {
+        background-color: $color-1;
+    }
+    table>tr>td {
+        font-family: $poppins;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    a.btn.btn-cv
+    {
+        font-family: $poppins;
+        font-weight: 600;
+        background-color: $color-1;
+        color: $color-black;
+        transition: all 0.5s ease;
+    }
+    a.btn.btn-cv:hover
+    {
+        background-color: $color-1-hover;
+        color: $color-black;
+    }
+}
+#container-right 
+{
+    #nav
+    {
+        width: 60px;
+    }
+    #nav ul.nav
+    {
+        margin-top: 10vh;
+    }
+    #nav ul.nav li
+    {
+        margin-top: 30px;
+    }
+    #nav ul.nav li button
+    {
+        width: 40px;
+        padding: 1px 4px !important;
+        font-size: 15px;
+        aspect-ratio: 1 / 1;
+        background-color: $color-2;
+        color: $color-3;
+        transition: all 0.5s ease;
+    }
+    #nav ul.nav li button.active
+    {
+        background-color: $color-1;
+        color: $color-black;
+    }
+    #nav ul.nav li button:hover
+    {
+        color: $color-black;
+        background-color: $color-1-hover;
+    }
+
+    #content
+    {
+        background-image: url('../img/bg.png');
+        height: calc(100vh - 70px);
+        min-height: 615px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        
+        #heading>h1
+        {
+            font-size: 50px;
+            font-family: $poppins;
+            font-weight: 800;
+        }
+        #home
+        {
+            p
+            {
+                font-size: 15px;
+                font-family: $poppins;
+                font-weight: 600;
+            }
+        }
+        #pengalaman
+        {
+            h2
+            {
+                font-family: $poppins;
+                font-weight: 800;
+            }
+            p
+            {
+                font-family: $poppins;
+                font-weight: 400;
+            }
+
+            .body
+            {
+                table.table .name-univ, table.table .ket
+                {
+                    white-space: nowrap;
+                }
+                table.table .name-univ
+                {
+                    font-family: $poppins;
+                    font-weight: 600;
+                }
+                table.table .ket
+                {
+                    font-family: $poppins;
+                    font-weight: 400;
+                }
+                table.table .ket .period
+                {
+                    display: inline-block;
+                    padding: 3px 5px;
+                    background-color: $color-1;
+                    color: $color-white;
+                }
+                table.table .prestasi
+                {
+                    font-size: 20px;
+                    font-family: $poppins;
+                    font-weight: 600;
+                }
+                table.table p
+                {
+                    font-size: 14px;
+                    font-family: $poppins;
+                    font-weight: 400;
+                }
+            }
+        }
+        #portofolio .gambar .lightbox
+        {
+            aspect-ratio: 1 / 1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        #portofolio ul.nav li a
+        {
+            font-family: $poppins;
+            font-weight: 400;
+            color: $color-black;
+
+            transition: all 0.5s ease;
+        }
+        #portofolio ul.nav li a:hover
+        {
+            color: $color-1;
+        }
+        #portofolio ul.nav li a.active
+        {
+            color: $color-1;
+        }
+    }
+}

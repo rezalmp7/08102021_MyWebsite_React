@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.color-orange {
+  color: #FFB400;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #ffe4a3;
+  background: #ffe4a3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFB400;
+}
+
+#container-left h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+#container-left p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #767676;
+}
+#container-left a.iconSosmed {
+  background-color: #FFB400;
+  color: black;
+  transition: all 0.5s ease;
+}
+#container-left a.iconSosmed:hover {
+  background-color: #d59501;
+  color: black;
+}
+#container-left table > tr > td > span.orange {
+  background-color: #FFB400;
+}
+#container-left table > tr > td {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+#container-left a.btn.btn-cv {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: #FFB400;
+  color: black;
+  transition: all 0.5s ease;
+}
+#container-left a.btn.btn-cv:hover {
+  background-color: #d59501;
+  color: black;
+}
+
+#container-right #nav {
+  width: 60px;
+}
+#container-right #nav ul.nav {
+  margin-top: 10vh;
+}
+#container-right #nav ul.nav li {
+  margin-top: 30px;
+}
+#container-right #nav ul.nav li button {
+  width: 40px;
+  padding: 1px 4px !important;
+  font-size: 15px;
+  aspect-ratio: 1/1;
+  background-color: #F0F0F6;
+  color: #767676;
+  transition: all 0.5s ease;
+}
+#container-right #nav ul.nav li button.active {
+  background-color: #FFB400;
+  color: black;
+}
+#container-right #nav ul.nav li button:hover {
+  color: black;
+  background-color: #d59501;
+}
+#container-right #content {
+  background-image: url("../img/bg.png");
+  height: calc(100vh - 70px);
+  min-height: 615px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#container-right #content #heading > h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+#container-right #content #home p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#container-right #content #pengalaman h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+#container-right #content #pengalaman p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#container-right #content #pengalaman .body table.table .name-univ, #container-right #content #pengalaman .body table.table .ket {
+  white-space: nowrap;
+}
+#container-right #content #pengalaman .body table.table .name-univ {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#container-right #content #pengalaman .body table.table .ket {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#container-right #content #pengalaman .body table.table .ket .period {
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: #FFB400;
+  color: white;
+}
+#container-right #content #pengalaman .body table.table .prestasi {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#container-right #content #pengalaman .body table.table p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+#container-right #content #portofolio .gambar .lightbox {
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#container-right #content #portofolio ul.nav li button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: black;
+  transition: all 0.5s ease;
+}
+#container-right #content #portofolio ul.nav li button:hover {
+  color: #FFB400;
+}
+#container-right #content #portofolio ul.nav li button.active {
+  color: #FFB400;
+}
