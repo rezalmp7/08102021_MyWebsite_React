@@ -25,7 +25,7 @@ export default class App extends React.Component {
           {/* You can also use a function (render prop) as a child */}
           <div className="text-center pt-5 pb-5">
             <h3>Minimal Width untuk web ini adalah 1000px</h3>
-            <h3>Silahkan menggunakan laptop atau dekstop, karena untuk responsifenya masih dalam dahap <span className="text-danger">pengembangan</span></h3>
+            <h3>Silahkan menggunakan laptop atau dekstop, karena untuk responsifenya masih dalam tahap <span className="text-danger">pengembangan</span></h3>
             <br />
             <br />
             <div className="col-12 m-1 p-0">
