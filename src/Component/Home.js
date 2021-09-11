@@ -13,7 +13,7 @@ export default class Home extends React.Component {
                             </div>
                             <div className="col-12 m-0 p-2">
                                 <p>
-                                    Website ini dibuat menggunakan React JS sebagai bahasa dasarnya, dan SASS sebagai pengganti CSS tanpa panel admin, <br /><br />Fitur responsifenya masih tahap <span className="text-danger">maintenance</span>
+                                    Website ini dibuat menggunakan React JS sebagai bahasa dasarnya, dan SASS sebagai pengganti CSS tanpa panel admin,<br /><br />Developer hanya ingin mencoba React JS dan SASS, <span className="text-success">Terima Kasih Terlah Berkujung</span> <br /><br />Fitur responsifenya masih tahap <span className="text-danger">maintenance</span>
                                 </p>
                             </div>
                         </div>

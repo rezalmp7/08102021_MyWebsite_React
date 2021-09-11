@@ -163,7 +163,7 @@ export default class Portofolio extends React.Component {
                         <h2 className="text-center text-uppercase">Portofolio</h2>
                         <div className="col-12 m-0 p-0 justify-content-md-center row">
                             <p className="col-6 text-center">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum
+                                Project Pribadi
                             </p>
                         </div>
                         <div className="col-12 mt-5 mb-2 p-2">
